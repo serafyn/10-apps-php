@@ -2,12 +2,13 @@
     "name": "vidamrr/notas",
     "autoload": {
         "psr-4": {
-            "Notas\\": "src/"
+            "Vidamrr\\Notas\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "marcos rivas"
+            "name": "serafyn",
+            "email": "38337920+serafyn@users.noreply.github.com"
         }
     ],
     "require": {}
