@@ -4,10 +4,12 @@ require 'header.php';
 use Vidamrr\Notas\models\Note;
 
 if (count($_POST) > 0) {
-    $title = $_POST['title'];
-    $content = $_POST['content'];
+    $title = isset($_POST['title']) ? $_POST['title'] : 'title prueba';
+    $content = isset($_POST['content']) ? $_POST['content'] : 'content prueba';
+    // $title = $_POST['title'];
+    // $content = $_POST['content'];
 
-    $note = new Note($title, $content);
+    $$note = new Note($title, $content);
     $note->save();
 }
 ?>
