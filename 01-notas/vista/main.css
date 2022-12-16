@@ -47,14 +47,20 @@ textarea {
     border-color: white;
 }
 
-input {
-    flex-direction: center;
+.contenedor {
+    text-align: center;
 }
 
 .size {
-    width: 100px;
-    padding: 20px;
-    margin: 20px;
+    width: 52%;
+    padding: 10px;
+    margin: 10px;
+}
 
-
+button {
+    width: 54%;
+    padding: 3px;
+    margin: 10px;
+    background-color: rgb(10, 10, 104);
+    color: white;
 }
